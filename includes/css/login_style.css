@@ -1,0 +1,125 @@
+
+  /* ------------------------------------login window-------- */
+
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 25px 0 10px 0;
+	position: relative;	
+}
+
+.avatar {
+    width: 150px;
+	height:150px;
+    border-radius: 50%;
+}
+.fa{
+	color: #f5921d;
+}
+/* The Modal (background) */
+
+
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #000;
+    margin: 0 auto 0 auto;    
+    width: 35%;
+    height: auto;
+	margin-top: 5vh;
+	border: 1px solid #1295c9;
+	border-radius: 15px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.login-box{
+    text-align: center;
+}
+.textbox{
+    width: 90%;
+    overflow: hidden;
+    font-size: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #1295c9;
+    margin-bottom: 30px;    
+  }
+.textbox i{
+    width: 40px;
+    float: left;
+    text-align: center;  
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  
+  }
+  .login_btn{
+    border-radius: 50px;
+    height:1.5cm;
+    width: 50%;
+    border: 2px solid black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(18, 152, 201, 0.9);
+  }
+.sign_type_btn{
+    border-radius: 10px;
+    height:1.5cm;
+    width: 40%;
+    border: 2px solid black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(18, 152, 201, 0.9);    
+}
+
+
+.not-yet-user{
+	color: #fff;
+	text-decoration: none;
+}
+@media (max-width: 767px){
+
+    .modal-content {        
+        
+        width: 100%;
+        border: none;
+    }
+
+    .sign_btn{
+		background-color: #f5921d;
+		color: black;
+		border: none;
+        border-radius: 25px;
+        height:1.2cm;
+        width: 50%;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+} 

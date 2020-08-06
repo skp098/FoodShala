@@ -1,0 +1,77 @@
+body{
+	background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1),rgba(0, 0, 0, 0)) , url(../../assets/images/14.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+}
+.navbar{
+	/* background-color: rgba(0, 0, 0, 0); */
+	background-color: black;
+	border-radius: 0px;
+	border: none;
+	color: white;
+	
+}
+.navbar-brand,.nav-link,.navbar-toggler{
+	color: white !important; 
+	font-size: 1.2em;
+}
+.nav-link{
+	margin-right: 40px;
+	font-weight: bold;	
+}
+.nav-link:hover{
+	color: #1295c9 !important; 
+}
+.logo{
+	width: 100%;
+	height: 50vh;
+	margin-top: 10vh;
+}
+.logo img{
+	width: 100%;
+	margin: 0 auto;
+}
+.fa{
+	color: #1295c9 !important; 
+}
+.explore_btn{
+    border-radius: 10px;
+    height:1.5cm;
+    width: 50%;    
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(18, 152, 201, 0.9);
+  }
+
+/*CSS For Mobile*/
+  
+@media (max-width: 767px){
+
+.nav-link{
+	margin-right: 40px;
+	font-weight: bold;	
+}
+.nav-link:hover{
+	color: #1295c9 !important; 
+}
+.logo{	
+	height: 50vh;
+	margin-top: 25vh;
+}
+.logo img{
+	width: 100%;
+	margin: 0 auto;
+}
+.fa{
+	color: #1295c9 !important; 
+	display: inline;
+}
+
+}
